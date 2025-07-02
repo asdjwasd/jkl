@@ -1,0 +1,14 @@
+{
+  "name": "minecraft2d",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "parcel public/index.html --open",
+    "build": "parcel build public/index.html --public-url ."
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "parcel": "^2.10.0",
+    "typescript": "^5.0.0"
+  }
+}
